@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #faf8ff;
+    color: #131b2e;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom subtle botanical shadows per design spec */
+.shadow-soft {
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04), 0 8px 24px rgba(34, 197, 94, 0.05);
+}
+
+.shadow-card-elevated {
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.06), 0 12px 32px -4px rgba(34, 197, 94, 0.08);
+}
+
+.shadow-glow-primary {
+  box-shadow: 0 8px 20px rgba(34, 197, 94, 0.35);
+}
+
+.shadow-bottom-sheet {
+  box-shadow: 0 -10px 40px rgba(15, 23, 42, 0.08);
+}

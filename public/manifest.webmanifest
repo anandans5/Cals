@@ -1,0 +1,33 @@
+{
+  "id": "/",
+  "name": "CalorieIQ — Smart Calorie & Macro Tracker",
+  "short_name": "CalorieIQ",
+  "description": "Intelligent calorie and macro tracker featuring AI vision food scanning, barcode scanning, and real-time nutritional breakdown.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#10b981",
+  "background_color": "#faf8ff",
+  "categories": ["health", "fitness", "lifestyle", "food"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

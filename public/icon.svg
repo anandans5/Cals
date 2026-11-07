@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="calorieGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="flameGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+  <!-- Background squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#calorieGrad)" />
+  <!-- Nutrition leaf & lens ring -->
+  <circle cx="256" cy="270" r="140" fill="none" stroke="#ffffff" stroke-width="24" stroke-opacity="0.9" />
+  <circle cx="256" cy="270" r="95" fill="#ffffff" fill-opacity="0.15" />
+  <!-- Flame / Calorie energy icon -->
+  <path d="M256 185 C240 220 205 240 205 280 C205 315 228 340 256 340 C284 340 307 315 307 280 C307 245 280 225 272 205 C268 218 260 228 252 232 C255 210 256 195 256 185 Z" fill="#ffffff" />
+  <!-- AI Sparkle -->
+  <path d="M370 140 L378 162 L400 170 L378 178 L370 200 L362 178 L340 170 L362 162 Z" fill="#fef08a" />
+  <circle cx="150" cy="180" r="10" fill="#a7f3d0" />
+</svg>

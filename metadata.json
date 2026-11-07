@@ -1,0 +1,6 @@
+{
+  "name": "CalorieIQ",
+  "description": "Intelligent calorie and macro tracker featuring AI vision food scanning, barcode scanning, and clinical-grade nutritional breakdown.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
